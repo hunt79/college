@@ -1,0 +1,87 @@
+body {background-color: rgb(0, 125, 131);}
+
+
+
+
+p {color: rgb(29, 0, 169);
+	background-color:rgb(167, 255, 194) ;
+	 }
+h2 {background-color:rgb(40, 52, 74) ;
+	color: rgb(167, 255, 194);
+	padding: 0px;
+	margin: 20px;
+	}
+img {margin-top: 0px;}
+
+.nav-wrap {
+	margin-bottom: 100px;
+}
+.site-nav {
+	background-color: rgb(40, 52, 74);
+	position: fixed;
+	width: 100%;
+	z-index: 3;
+	padding: 10px 0;
+}
+
+.site-nav ul {
+	text-align: center;
+}
+.site-nav ul li {
+	list-style-type: none;
+	margin: 0 25px;
+	font-size: 30px;
+	display: inline-block;
+	color: yellow;	
+}
+
+.site-nav li a {
+	color: rgb(167, 255, 194);
+	float: left;
+	background-color: rgb(29, 0, 169);
+
+}
+
+#slides{
+	position: ;
+	height: 100px;
+	padding: 0px;
+	margin: 0px;
+	list-style-type: none;
+}
+
+.slide{
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 100%;
+	height: 100%;
+	opacity: 0;
+	z-index: 1;
+
+	-webkit-transition: opacity 1s;
+	-moz-transition: opacity 1s;
+	-o-transition: opacity 1s;
+	transition: opacity 1s;
+}
+
+.showing{
+	opacity: 1;
+	z-index: 2;
+}
+
+.button-left {margin-left: 95px;}
+
+button {color: rgb(167, 255, 194);
+		background-color:rgb(40, 52, 74) ;}
+
+.Push {margin-top:  100px;}
+
+/*.slide{
+	font-size: px;
+	padding: 40px;
+	box-sizing: border-box;*/
+
+ 
+
+
